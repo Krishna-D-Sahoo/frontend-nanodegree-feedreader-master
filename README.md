@@ -17,4 +17,6 @@ Well, while preparing the tests, the developer tools can be of great help like-
 You can directly view the code on the github or you can download the project, check it on the local system.
 
 * To see the code for the test suits, go to - jasmine/spec/feedreader.js
-* You can open the **'index.html'** file in your browser to see the tests conducted on the elements.
+* You can open the **'index.html'** file in your browser to see the tests conducted on the elements, if they meet the expectations.
+
+*NOTE : Sometimes you may come across a failure i.e. 'Timeout' error... well, refreshing the page removes that error.* 
