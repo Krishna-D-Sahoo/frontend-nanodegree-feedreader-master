@@ -16,4 +16,5 @@ Well, while preparing the tests, the developer tools can be of great help like-
 ---
 You can directly view the code on the github or you can download the project, check it on the local system.
 
-The test suits are in the file - feedreader.js, inside the folder jasmine/spec.
+* To see the code for the test suits, go to - jasmine/spec/feedreader.js
+* You can open the **'index.html'** file in your browser to see the tests conducted on the elements.
