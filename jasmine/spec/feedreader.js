@@ -64,7 +64,8 @@ $(function() {
        */
 
       it('is hidden by default', function() {
-        expect((document.getElementsByTagName('body'))[0].className).toBe('menu-hidden');
+        //  expect((document.getElementsByTagName('body'))[0].className).toBe('menu-hidden');
+        expect($('body').hasClass('menu-hidden')).toBe(true);
       });
 
       /* This is a test that ensures the menu changes
