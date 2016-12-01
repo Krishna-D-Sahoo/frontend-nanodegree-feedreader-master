@@ -106,7 +106,8 @@ $(function() {
          });
 
          it('has at least one entry present after the loadFeed function is called', function() {
-            expect(document.querySelectorAll('article.entry').length).toBeGreaterThan(0);
+            // expect(document.querySelectorAll('article.entry').length).toBeGreaterThan(0);
+            expect(document.querySelectorAll('.feed .entry').length).toBeGreaterThan(0);
             // checks the length of the list in the within the .feed container
          });
     });
